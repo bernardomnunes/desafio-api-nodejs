@@ -1,0 +1,20 @@
+POST http://localhost:3333/courses
+Content-Type: application/json
+
+{
+  "title": "Curso de Fastify"
+}
+
+###
+
+GET http://localhost:3333/courses
+
+###
+
+GET http://localhost:3333/courses/c5faa9de-a9a3-46e7-ba66-95486c86e8a4
+
+# Para enviar arquivos via json precisa converter o arquivo de binario para hexadecimal
+# Porem, isso eh mto pesado por conta disso a melhor maneira seria via multipart/form-data
+# Content-Type: 
+
+
