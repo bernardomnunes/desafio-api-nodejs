@@ -6,3 +6,5 @@ https://efficient-sloth-d85.notion.site/Desafio-Primeira-API-com-Node-js-23a395d
 // Escreva um arquivo README.md para este app
 // "Adicione uma seção no README contendo um digrama
 // mermaid com o fluxo mais importante da aplicação"
+
+// Para abrir o coverage digite "open coverage/index.html"
