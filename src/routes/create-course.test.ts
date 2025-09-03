@@ -1,6 +1,6 @@
 // teste do vite
 import { test, expect } from "vitest";
-// o supertest serve para fazer o "fetch"
+// o supertest serve para fazer requisições http
 import request from "supertest";
 import { server } from "../app.ts";
 // "dados Fictícios"
