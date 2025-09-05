@@ -1,9 +1,9 @@
 POST http://localhost:3333/courses
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjY4NzkwMi1kNDkzLTQ1ODItOTU3NS1kZTViYTkwMTc3YzYiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NzAyODg2OX0.AKd_zOtOXnyBmPFvOT-Pll3vHYbDzGVmgnPiRiDfXaM
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzMmUyNzU1OC0xNjA5LTQzOTAtODc5NC02MTgwMjc3YjBjMmUiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NzEwNzA5NH0.-qmNU9fMXXPFeJOb-ipkPxKNH3vp59oGMPT0z-CuSx4
 
 {
-  "title": "Curso de Angular"
+  "title": "Curso de Cobol"
 }
 
 ###
@@ -12,8 +12,8 @@ GET http://localhost:3333/courses
 
 ###
 
-GET http://localhost:3333/courses/a9e925de-a16c-4608-b4ad-697c235233dc
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjY4NzkwMi1kNDkzLTQ1ODItOTU3NS1kZTViYTkwMTc3YzYiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NzAyODg2OX0.AKd_zOtOXnyBmPFvOT-Pll3vHYbDzGVmgnPiRiDfXaM
+GET http://localhost:3333/courses/385d2939-4154-475d-9141-586a0838096a
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjY4NzkwMi1kNDkzLTQ1ODItOTU3NS1kZTViYTkwMTc3YzYiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NzAyODg2OX0.AKd_zOtOXnyBmPFvOT-Pll3vHYbDzGVmgnPiRiDfXa
 
 # Para enviar arquivos via json precisa converter o arquivo de binario para hexadecimal
 # Porem, isso eh mto pesado por conta disso a melhor maneira seria via multipart/form-data
@@ -25,7 +25,7 @@ POST http://localhost:3333/sessions
 Content-Type: application/json
 
 {
-  "email": "Breno_Batista@gmail.com",
+  "email": "Yago_Costa27@bol.com.br",
   "password": "123456"
 }
 
