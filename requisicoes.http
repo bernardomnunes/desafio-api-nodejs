@@ -1,5 +1,6 @@
 POST http://localhost:3333/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjY4NzkwMi1kNDkzLTQ1ODItOTU3NS1kZTViYTkwMTc3YzYiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NzAyODg2OX0.AKd_zOtOXnyBmPFvOT-Pll3vHYbDzGVmgnPiRiDfXaM
 
 {
   "title": "Curso de Angular"
@@ -11,10 +12,20 @@ GET http://localhost:3333/courses
 
 ###
 
-GET http://localhost:3333/courses/2c908bfb-5717-4b30-854f-14325f89c101
+GET http://localhost:3333/courses/a9e925de-a16c-4608-b4ad-697c235233dc
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjY4NzkwMi1kNDkzLTQ1ODItOTU3NS1kZTViYTkwMTc3YzYiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NzAyODg2OX0.AKd_zOtOXnyBmPFvOT-Pll3vHYbDzGVmgnPiRiDfXaM
 
 # Para enviar arquivos via json precisa converter o arquivo de binario para hexadecimal
 # Porem, isso eh mto pesado por conta disso a melhor maneira seria via multipart/form-data
 # Content-Type: 
 
+###
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+  "email": "Breno_Batista@gmail.com",
+  "password": "123456"
+}
 
